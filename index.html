@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+ <meta name="viewport" content="width=1200, user-scalable=no">
+  <title>Dandan Priatna - Graphic Designer</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Dandan Priatna</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Tentang</a></li>
+        <li><a href="#skills">Keahlian</a></li>
+        <li><a href="#portfolio">Portofolio</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+    <button class="menu-toggle">☰</button>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hi! Saya <span>Dandan Priatna</span></h1>
+      <h2>Graphic & Web Designer</h2>
+      <p>Saya adalah desainer kreatif yang berfokus pada tampilan visual dan pengalaman pengguna yang menarik.</p>
+      <div class="buttons">
+        <a href="ITEM/CV.pdf" class="btn-primary" target="_blank" rel="noopener">Download CV</a>
+        <a href="#contact" class="btn-secondary">Hire Me</a>
+      </div>
+    </div>
+    <div class="hero-img">
+      <img src="/img/img.png" alt="Foto Dandan Priatna">
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+  <h2>Keahlian Saya</h2>
+  <div class="skill-bars">
+    <div class="bar" data-desc="Membuat tampilan website yang menarik, responsif, dan mudah digunakan.">
+      <i class="fa-solid fa-code"></i>
+      <div class="info">
+        <p>Web Design</p>
+      </div>
+      <div class="progress"><span data-skill="85"></span></div>
+      <div class="percent">85%</div>
+    </div>
+
+    <div class="bar" data-desc="Mendesain berbagai kebutuhan visual seperti logo, poster, dan branding.">
+      <i class="fa-solid fa-pen-nib"></i>
+      <div class="info">
+        <p>Graphic Design</p>
+      </div>
+      <div class="progress"><span data-skill="90"></span></div>
+      <div class="percent">90%</div>
+    </div>
+
+    <div class="bar" data-desc="Mengambil dan mengedit foto profesional untuk berbagai kebutuhan visual.">
+      <i class="fa-solid fa-camera-retro"></i>
+      <div class="info">
+        <p>Photography</p>
+      </div>
+      <div class="progress"><span data-skill="70"></span></div>
+      <div class="percent">70%</div>
+    </div>
+
+    <div class="bar" data-desc="Menyusun strategi digital marketing yang efektif untuk meningkatkan brand awareness.">
+      <i class="fa-solid fa-bullhorn"></i>
+      <div class="info">
+        <p>Marketing</p>
+      </div>
+      <div class="progress"><span data-skill="80"></span></div>
+      <div class="percent">80%</div>
+    </div>
+
+    <div class="bar" data-desc="Menguasai Word, Excel, PowerPoint, dan aplikasi Office lainnya untuk keperluan profesional.">
+      <i class="fa-solid fa-file-word"></i>
+      <div class="info">
+        <p>Microsoft Office</p>
+      </div>
+      <div class="progress"><span data-skill="95"></span></div>
+      <div class="percent">95%</div>
+    </div>
+  </div>
+</section>
+
+
+  <section class="container" id="portfolio">
+  <h1>Projek UI/UX</h1>
+
+  <section class="main-project" id="mainProject">
+    <img id="mainImage" src="/img/img.png" alt="Project utama">
+    <section class="project-info" id="mainproject1">
+      <h2 id="mainTitle">Daftar Proyek & Keahlian</h2>
+      <p id="mainDesc">Project utama dengan desain modern dan interaktif.</p>
+      <ul id="mainPoints">
+        <li>Fotografi (outdoor/indoor, prewedding, wisuda, event)</li>
+        <li>Edit foto (Lightroom)</li>
+        <li>Edit video (CapCut / dasar Premiere)</li>
+        <li>Desain grafis (Canva, Photoshop, CorelDRAW)</li>
+        <li>Desain banner & promosi</li>
+        <li>Membuat website menggunakan HTML, CSS, dan JS</li>
+      </ul>
+    </section>
+
+    <section class="small-projects-container">
+      <section class="small-projects" id="smallProjects">
+
+        <div class="small-card"
+          data-project="a"
+          data-title="Projek A"
+          data-desc="UI dashboard dengan tema minimalis cerah.">
+          <img src="https://images.unsplash.com/photo-1542281286-9e0a16bb7366?auto=format&fit=crop&w=210&q=80" alt="Projek A">
+          <p>Projek A - Fotografi Outdoor</p>
+        </div>
+
+        <div class="small-card"
+          data-project="b"
+          data-title="Projek B"
+          data-desc="Desain mobile app untuk belanja online.">
+          <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=210&q=80" alt="Projek B">
+          <p>Projek B - Desain Grafis</p>
+        </div>
+
+        <div class="small-card"
+          data-project="c"
+          data-title="Projek C"
+          data-desc="Aplikasi dashboard admin.">
+          <img src="https://images.unsplash.com/photo-1581092795360-8a2d8a4bdb90?auto=format&fit=crop&w=210&q=80" alt="Projek C">
+          <p>Projek C - Website Interaktif</p>
+        </div>
+
+      </section>
+      <input type="range" id="manualScroll" min="0" max="100" value="0">
+    </section>
+  </section>
+</section>
+
+<!-- ===== MODAL DETAIL ===== -->
+<div class="modal" id="modalDetail">
+  <div class="modal-content">
+    <button class="modal-close" id="closeModal">×</button>
+    <h2 id="detailTitle"></h2>
+    <p id="detailText"></p>
+    <div class="extra-images" id="extraImages"></div>
+  </div>
+</div>
+
+
+    <!-- VIDEO GRID -->
+    <section class="video-section">
+      <h2 style="color:#f5b301;"></h2>
+      <div class="video-grid" id="videoGrid"></div>
+    </section>
+  </section>
+
+  <!-- MODAL -->
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact-section">
+    <h2 class="section-title">Hubungi Saya</h2>
+    <p class="contact-text">Tertarik untuk bekerja sama atau sekadar berdiskusi? Silakan hubungi saya melalui platform berikut:</p>
+    <div class="contact-container">
+      <a href="tel:085723404088" class="contact-card"><i class="fa-solid fa-phone"></i></a>
+      <a href="https://wa.me/085723404088" target="_blank" class="contact-card"><i class="fa-brands fa-whatsapp"></i></a>
+      <a href="https://www.instagram.com/dpriatna12" target="_blank" class="contact-card"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.facebook.com/dandan.priatna" target="_blank" class="contact-card"><i class="fa-brands fa-facebook"></i></a>
+      <a href="https://www.tiktok.com/@dpriatna12" target="_blank" class="contact-card"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Dandan Priatna. All rights reserved.</p>
+  </footer>
+</body>
+</html>
