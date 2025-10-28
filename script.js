@@ -129,7 +129,7 @@ const projectDetails = {
     images: ['Item/8.jpg', 'item/9.jpg','item/10.jpg', ' item/11.jpg']
   },
   b: {
-    title: "Projek B - Desain Grafis",
+    title: "Desain Grafis",
     desc: "Setiap foto memiliki ceritanya sendiri — dan melalui editing Lightroom, cerita itu kembali hidup. Fokus utama ada pada peningkatan tone alami, keseimbangan cahaya dan bayangan, serta penciptaan suasana yang selaras dengan setiap adegan. Mulai dari senja hangat di luar ruangan, potret elegan di dalam ruangan, prewedding penuh cinta, hingga momen wisuda dan event yang meriah, setiap detail disempurnakan dengan ketelitian dan rasa. Tujuannya sederhana: mengubah setiap momen menjadi karya seni abadi tanpa kehilangan keindahan dan emosi aslinya.",
     images: ['']
   },
