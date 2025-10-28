@@ -105,11 +105,11 @@ document.getElementById('mainProject').addEventListener('click', () => {
   
   extraImages.innerHTML = "";
   const urls = [
-    '/img/1.jpg',
-    '/img/2.jpg',
-    '/img/3.jpg',
-    '/img/4.jpg',
-    '/img/5.jpg',
+    'img/1.jpg',
+    'img/2.jpg',
+    'img/3.jpg',
+    'img/4.jpg',
+    'img/5.jpg',
   ];
   urls.forEach(u => {
     const img = document.createElement('img');
@@ -124,14 +124,14 @@ document.getElementById('mainProject').addEventListener('click', () => {
 // DETAIL UNTUK SMALL CARD
 const projectDetails = {
   a: {
-    title: "Projek A - Fotografi Outdoor",
-    desc: "Pemotretan di alam terbuka dengan tone warna hangat, menggunakan pencahayaan alami.",
-    images: ['/img/1.jpg', '/img/a2.jpg', '/img/a3.jpg']
+    title: "Fotografi Outdoor",
+    desc: "Di Moments Beyond Time, saya percaya setiap foto memiliki cerita — tentang senyum, sentuhan, mimpi, atau perayaan. Mulai dari prewedding yang penuh cinta, wisuda yang membanggakan, hingga event yang berkesan, mengabadikan setiap momen dengan kehangatan dan sentuhan seni. Baik di cahaya alami luar ruangan maupun suasana nyaman dalam ruangan, mengubah detik singkat menjadi kenangan abadi — karena setiap kisahmu pantas untuk dikenang selamanya.",
+    images: ['Item/8.jpg', 'item/9.jpg','item/10.jpg', ' item/11.jpg']
   },
   b: {
     title: "Projek B - Desain Grafis",
-    desc: "Pembuatan desain promosi produk menggunakan Photoshop dan Canva dengan gaya modern.",
-    images: ['/img/b1.jpg', '/img/b2.jpg', '/img/b3.jpg']
+    desc: "Setiap foto memiliki ceritanya sendiri — dan melalui editing Lightroom, cerita itu kembali hidup. Fokus utama ada pada peningkatan tone alami, keseimbangan cahaya dan bayangan, serta penciptaan suasana yang selaras dengan setiap adegan. Mulai dari senja hangat di luar ruangan, potret elegan di dalam ruangan, prewedding penuh cinta, hingga momen wisuda dan event yang meriah, setiap detail disempurnakan dengan ketelitian dan rasa. Tujuannya sederhana: mengubah setiap momen menjadi karya seni abadi tanpa kehilangan keindahan dan emosi aslinya.",
+    images: ['']
   },
   c: {
     title: "Projek C - Website Interaktif",
