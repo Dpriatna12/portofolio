@@ -1,19 +1,21 @@
 // ======== RESPONSIVE NAVBAR ========
 const menuToggle = document.querySelector('.menu-toggle');
 const navLinks = document.querySelector('.nav-links');
-const navbar = document.querySelector('.navbar');
 
+// Toggle menu saat hamburger diklik
 menuToggle.addEventListener('click', (e) => {
   e.stopPropagation();
   navLinks.classList.toggle('show');
 });
 
+// Tutup menu saat salah satu link diklik
 navLinks.querySelectorAll('a').forEach(link => {
   link.addEventListener('click', () => {
     navLinks.classList.remove('show');
   });
 });
 
+// Tutup menu saat klik di luar area menu
 document.addEventListener('click', (e) => {
   if (!navLinks.contains(e.target) && !menuToggle.contains(e.target)) {
     navLinks.classList.remove('show');
