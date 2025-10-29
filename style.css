@@ -115,6 +115,8 @@ section {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
+  text-align: center;
+  
 }
 
 .btn-primary,
@@ -351,7 +353,7 @@ footer { background:#ffb703; color:#fff; text-align:center; padding:20px; margin
 /*                     MEDIA QUERY UNIFIED               */
 /* ===================================================== */
 @media (max-width: 1024px) {
-  .hero { flex-direction: column; gap: 40px; padding: 80px 5%; text-align:center; }
+  .hero { flex-direction: column-reverse; gap: 40px; padding: 80px 5%; text-align:center; }
   .hero-text h1 { font-size: 2.2rem; }
   .hero-text h2 { font-size: 1.4rem; }
   .hero-text p { font-size: 1rem; }
@@ -362,6 +364,41 @@ footer { background:#ffb703; color:#fff; text-align:center; padding:20px; margin
   .main-project img { margin-bottom: 20px; }
   .small-card { width: 200px; height: 140px; }
   .video-grid { grid-template-columns: repeat(2,1fr); }
+  /* ===== Hamburger Menu ===== */
+  .menu-toggle {
+    display: block;
+    font-size: 1.8em;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #333;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    background: #fff;
+    flex-direction: column;
+    width: 220px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    
+    transform: translateX(120%); /* tersembunyi awal */
+    transition: transform 0.3s ease-in-out;
+    display: flex; /* tetap flex agar toggle berfungsi */
+    z-index: 999;
+  }
+
+  .nav-links.show {
+    transform: translateX(0); /* muncul saat toggle diklik */
+  }
+    .hero-text .buttons {
+    justify-content: center;
+    flex-direction: column;
+  }
+
 }
 
 @media (max-width: 768px) {
