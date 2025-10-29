@@ -126,7 +126,7 @@ const projectDetails = {
   a: {
     title: "Fotografi Outdoor",
     desc: "Di Moments Beyond Time, saya percaya setiap foto memiliki cerita — tentang senyum, sentuhan, mimpi, atau perayaan. Mulai dari prewedding yang penuh cinta, wisuda yang membanggakan, hingga event yang berkesan, mengabadikan setiap momen dengan kehangatan dan sentuhan seni. Baik di cahaya alami luar ruangan maupun suasana nyaman dalam ruangan, mengubah detik singkat menjadi kenangan abadi — karena setiap kisahmu pantas untuk dikenang selamanya.",
-    images: ['Item/8.jpg', 'item/9.jpg','item/10.jpg', ' item/11.jpg']
+    images: ['ITEM/8.jpg', 'ITEM/9.jpg','ITEM/10.jpg', ' ITEM/11.jpg']
   },
   b: {
     title: "Desain Grafis",
